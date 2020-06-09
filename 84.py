@@ -1,4 +1,17 @@
-num= int (input("Enter your number"))
+"""
+
+Enter your number: 5
+*       * 
+  *   *   
+    *     
+  *   *   
+*       * 
+
+
+"""
+
+
+num= int (input("Enter your number: "))
 
 for i in range (num):
 	for j in range(num):
